@@ -1,21 +1,23 @@
 # Evaluating Methods for Choosing K in K-Means Clustering
 
 ## Overview
-This project explores how to determine the optimal number of clusters (K) in K-Means clustering using the Elbow method and Silhouette score.
+This project investigates how to determine the optimal number of clusters (K) in K-Means clustering. It compares two widely used methods: the Elbow method and the Silhouette score.
 
-## Contents
-- Jupyter Notebook with implementation and analysis
-- Visualisations of clustering results
-- Comparison of evaluation techniques
+## Research Question
+How can we determine the optimal number of clusters in K-Means clustering, and how reliable are the Elbow and Silhouette methods across different types of datasets?
 
-## How to Run
-1. Install required libraries:
-   pip install -r requirements.txt
+## Datasets
+Three datasets are used to evaluate performance:
+- Well-separated clusters (ideal scenario)
+- Overlapping clusters (challenging scenario)
+- Non-spherical clusters (violates K-Means assumptions)
 
-2. Open the notebook:
-   jupyter notebook
+## Methods Used
+- K-Means Clustering
+- Elbow Method (WCSS)
+- Silhouette Score
 
-## Key Insights
-- Elbow method works well for well-separated clusters
-- Silhouette score provides better guidance for overlapping data
+## Key Findings
+- Elbow method works well for clearly separated clusters
+- Silhouette score provides better insight for overlapping data
 - Both methods struggle with non-spherical clusters

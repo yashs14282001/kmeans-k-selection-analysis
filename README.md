@@ -31,7 +31,12 @@ pip install -r requirements.txt
 ## Repository Contents
 - Jupyter Notebook (implementation and analysis)
 - Generated plots for evaluation
-- Report link - 
+
+## Report
+
+The full report explaining the analysis can be accessed here:
+
+[evaluating-Kmeans-report.pdf](evaluating-Kmeans-report.pdf)
 
 ## License
 This project is licensed under the MIT License.
